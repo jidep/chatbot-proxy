@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const response = await fetch("https://s4n.srv1905779.htstr.cloud/webhook/chat-corruption", {
+  const response = await fetch("https://n8n.srv1905779.htstr.cloud/webhook/chat-corruption", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
